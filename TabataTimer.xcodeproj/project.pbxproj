@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587E1B751972781900320DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E1B741972781900320DE8 /* AppDelegate.swift */; };
+		587E1B771972781900320DE8 /* TabataTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E1B761972781900320DE8 /* TabataTimerViewController.swift */; };
+		587E1B7A1972781900320DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E1B781972781900320DE8 /* Main.storyboard */; };
+		587E1B7C1972781900320DE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587E1B7B1972781900320DE8 /* Images.xcassets */; };
+		587E1B881972781A00320DE8 /* TabataTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E1B871972781A00320DE8 /* TabataTimerTests.swift */; };
+		A3DCD712197BC7DB009DB856 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DCD711197BC7DB009DB856 /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587E1B821972781A00320DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587E1B671972781900320DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587E1B6E1972781900320DE8;
+			remoteInfo = TabataTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		587E1B6F1972781900320DE8 /* TabataTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabataTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587E1B731972781900320DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587E1B741972781900320DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		587E1B761972781900320DE8 /* TabataTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataTimerViewController.swift; sourceTree = "<group>"; };
+		587E1B791972781900320DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587E1B7B1972781900320DE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		587E1B811972781A00320DE8 /* TabataTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587E1B861972781A00320DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587E1B871972781A00320DE8 /* TabataTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataTimerTests.swift; sourceTree = "<group>"; };
+		A3DCD711197BC7DB009DB856 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587E1B6C1972781900320DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587E1B7E1972781A00320DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587E1B661972781900320DE8 = {
+			isa = PBXGroup;
+			children = (
+				587E1B711972781900320DE8 /* TabataTimer */,
+				587E1B841972781A00320DE8 /* TabataTimerTests */,
+				587E1B701972781900320DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587E1B701972781900320DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587E1B6F1972781900320DE8 /* TabataTimer.app */,
+				587E1B811972781A00320DE8 /* TabataTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587E1B711972781900320DE8 /* TabataTimer */ = {
+			isa = PBXGroup;
+			children = (
+				587E1B741972781900320DE8 /* AppDelegate.swift */,
+				587E1B761972781900320DE8 /* TabataTimerViewController.swift */,
+				A3DCD711197BC7DB009DB856 /* SettingViewController.swift */,
+				587E1B781972781900320DE8 /* Main.storyboard */,
+				587E1B7B1972781900320DE8 /* Images.xcassets */,
+				587E1B721972781900320DE8 /* Supporting Files */,
+			);
+			path = TabataTimer;
+			sourceTree = "<group>";
+		};
+		587E1B721972781900320DE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587E1B731972781900320DE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587E1B841972781A00320DE8 /* TabataTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				587E1B871972781A00320DE8 /* TabataTimerTests.swift */,
+				587E1B851972781A00320DE8 /* Supporting Files */,
+			);
+			path = TabataTimerTests;
+			sourceTree = "<group>";
+		};
+		587E1B851972781A00320DE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587E1B861972781A00320DE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587E1B6E1972781900320DE8 /* TabataTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587E1B8B1972781A00320DE8 /* Build configuration list for PBXNativeTarget "TabataTimer" */;
+			buildPhases = (
+				587E1B6B1972781900320DE8 /* Sources */,
+				587E1B6C1972781900320DE8 /* Frameworks */,
+				587E1B6D1972781900320DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabataTimer;
+			productName = TabataTimer;
+			productReference = 587E1B6F1972781900320DE8 /* TabataTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587E1B801972781A00320DE8 /* TabataTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587E1B8E1972781A00320DE8 /* Build configuration list for PBXNativeTarget "TabataTimerTests" */;
+			buildPhases = (
+				587E1B7D1972781A00320DE8 /* Sources */,
+				587E1B7E1972781A00320DE8 /* Frameworks */,
+				587E1B7F1972781A00320DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587E1B831972781A00320DE8 /* PBXTargetDependency */,
+			);
+			name = TabataTimerTests;
+			productName = TabataTimerTests;
+			productReference = 587E1B811972781A00320DE8 /* TabataTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587E1B671972781900320DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "jiu-mpr";
+				TargetAttributes = {
+					587E1B6E1972781900320DE8 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4RQCLDBM64;
+					};
+					587E1B801972781A00320DE8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 587E1B6E1972781900320DE8;
+					};
+				};
+			};
+			buildConfigurationList = 587E1B6A1972781900320DE8 /* Build configuration list for PBXProject "TabataTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587E1B661972781900320DE8;
+			productRefGroup = 587E1B701972781900320DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587E1B6E1972781900320DE8 /* TabataTimer */,
+				587E1B801972781A00320DE8 /* TabataTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587E1B6D1972781900320DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587E1B7A1972781900320DE8 /* Main.storyboard in Resources */,
+				587E1B7C1972781900320DE8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587E1B7F1972781A00320DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587E1B6B1972781900320DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587E1B771972781900320DE8 /* TabataTimerViewController.swift in Sources */,
+				587E1B751972781900320DE8 /* AppDelegate.swift in Sources */,
+				A3DCD712197BC7DB009DB856 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587E1B7D1972781A00320DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587E1B881972781A00320DE8 /* TabataTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587E1B831972781A00320DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587E1B6E1972781900320DE8 /* TabataTimer */;
+			targetProxy = 587E1B821972781A00320DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		587E1B781972781900320DE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587E1B791972781900320DE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587E1B891972781A00320DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		587E1B8A1972781A00320DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587E1B8C1972781A00320DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TabataTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		587E1B8D1972781A00320DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TabataTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		587E1B8F1972781A00320DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabataTimer.app/TabataTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabataTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		587E1B901972781A00320DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabataTimer.app/TabataTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabataTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587E1B6A1972781900320DE8 /* Build configuration list for PBXProject "TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587E1B891972781A00320DE8 /* Debug */,
+				587E1B8A1972781A00320DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587E1B8B1972781A00320DE8 /* Build configuration list for PBXNativeTarget "TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587E1B8C1972781A00320DE8 /* Debug */,
+				587E1B8D1972781A00320DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587E1B8E1972781A00320DE8 /* Build configuration list for PBXNativeTarget "TabataTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587E1B8F1972781A00320DE8 /* Debug */,
+				587E1B901972781A00320DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587E1B671972781900320DE8 /* Project object */;
+}
